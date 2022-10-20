@@ -6,16 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaSE" />
-        <module name="java1015" />
-        <module name="java1019" />
+        <module name="java1014" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java1015" target="1.8" />
-      <module name="java1019" target="1.8" />
-      <module name="javaEE" target="1.8" />
-      <module name="JavaSE" target="1.8" />
+      <module name="java1014" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
