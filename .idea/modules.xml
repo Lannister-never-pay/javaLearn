@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/JavaLearn.iml" filepath="$PROJECT_DIR$/JavaLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/java1015/java1015.iml" filepath="$PROJECT_DIR$/java1015/java1015.iml" />
       <module fileurl="file://$PROJECT_DIR$/java1019/java1019.iml" filepath="$PROJECT_DIR$/java1019/java1019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java1020/java1020.iml" filepath="$PROJECT_DIR$/java1020/java1020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java1101/java1101.iml" filepath="$PROJECT_DIR$/java1101/java1101.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaEE/javaEE.iml" filepath="$PROJECT_DIR$/javaEE/javaEE.iml" />
     </modules>
   </component>
