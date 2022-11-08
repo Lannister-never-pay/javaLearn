@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaSE" />
+        <module name="java1108" />
         <module name="java1101" />
         <module name="java1019" />
         <module name="java1020" />
@@ -18,6 +19,7 @@
       <module name="java1019" target="1.8" />
       <module name="java1020" target="1.8" />
       <module name="java1101" target="1.8" />
+      <module name="java1108" target="1.8" />
       <module name="javaEE" target="1.8" />
       <module name="JavaSE" target="1.8" />
     </bytecodeTargetLevel>

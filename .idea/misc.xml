@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/java1019" />
     <file type="web" url="file://$PROJECT_DIR$/java1020" />
     <file type="web" url="file://$PROJECT_DIR$/java1101" />
+    <file type="web" url="file://$PROJECT_DIR$/java1108" />
     <file type="web" url="file://$PROJECT_DIR$/javaEE" />
     <file type="web" url="file://$PROJECT_DIR$/JavaSE" />
   </component>
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/java1019/pom.xml" />
         <option value="$PROJECT_DIR$/java1020/pom.xml" />
         <option value="$PROJECT_DIR$/java1101/pom.xml" />
+        <option value="$PROJECT_DIR$/java1108/pom.xml" />
       </list>
     </option>
   </component>
