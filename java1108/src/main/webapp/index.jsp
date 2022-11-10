@@ -9,5 +9,24 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+
+    <%
+        //  这些代码会打印到控制台
+        System.out.println("hello Jsp!");
+        String contextPath = request.getContextPath();
+
+    %>
+
+    <%!
+        int i = 3;
+
+    %>
+
+    <%="hello world"
+
+    %>
+
+    <%--  这些代码会显示在页面  --%>
+    <h1>hi jsp！</h1>
 </body>
 </html>
