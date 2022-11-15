@@ -25,6 +25,7 @@ public class SessionDemo1 extends HttpServlet {
 
 
 
+
         session.setAttribute("msg","hello session");
 
     }
