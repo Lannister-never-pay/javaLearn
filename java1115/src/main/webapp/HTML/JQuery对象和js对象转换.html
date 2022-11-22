@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义js框架</title>
+    <script src="./js/emnets.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+    <div id="div1"> div1.... </div>
+    <div id="div2"> div2.... </div>
+
+<script>
+
+   // 1.通过js方式获取名称叫div的所有html对象
+   var divs = document.getElementsByTagName("div")
+   //alert(divs)  // 可以当作数组来使用
+   //   对divs中所有div 让其标签体内容变为"aaa"
+   for(var i = 0; i < divs.length;i++){
+       divs[i].innerHTML = "aaa"
+   }
+
+
+   // 2.jq方式获取
+   var $divs = $("div");  // 也可以当作数组使用
+    //alert($divs)
+   //   对divs中所有div 让其标签体内容变为"bbb"
+   $divs.html("bbb");
+   $divs[0].innerHTML="ccc"
+   $divs.get(1).innerHTML="eee"
+
+   /**
+    * 结论：
+    * 1.JQuery对象操作更简单，
+    * 2.JQ和JS对象方法不通用
+    * 3.两者需要相互转换
+    */
+
+</script>
+
+
+
+
+</body>
+</html>
