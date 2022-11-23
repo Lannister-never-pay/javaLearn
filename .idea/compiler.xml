@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JavaSE" />
         <module name="java1101" />
+        <module name="java1123" />
         <module name="java1115" />
         <module name="java1015" />
         <module name="java1108" />
@@ -22,6 +23,7 @@
       <module name="java1101" target="1.8" />
       <module name="java1108" target="1.8" />
       <module name="java1115" target="1.8" />
+      <module name="java1123" target="1.8" />
       <module name="javaEE" target="1.8" />
       <module name="JavaSE" target="1.8" />
     </bytecodeTargetLevel>
