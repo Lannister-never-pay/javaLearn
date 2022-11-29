@@ -14,6 +14,7 @@
         <module name="java1015" />
         <module name="java1108" />
         <module name="java1019" />
+        <module name="java_maven_web" />
         <module name="java1020" />
       </profile>
     </annotationProcessing>
@@ -25,8 +26,9 @@
       <module name="java1108" target="1.8" />
       <module name="java1115" target="1.8" />
       <module name="java1123" target="1.8" />
-      <module name="java_maven" target="8" />
+      <module name="java_maven" target="1.8" />
       <module name="java_maven_2" target="1.7" />
+      <module name="java_maven_web" target="8" />
       <module name="javaEE" target="1.8" />
       <module name="JavaSE" target="1.8" />
     </bytecodeTargetLevel>

@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/java1123/java1123.iml" filepath="$PROJECT_DIR$/java1123/java1123.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaEE/javaEE.iml" filepath="$PROJECT_DIR$/javaEE/javaEE.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_maven/java_maven.iml" filepath="$PROJECT_DIR$/java_maven/java_maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_maven_web/java_maven_web.iml" filepath="$PROJECT_DIR$/java_maven_web/java_maven_web.iml" />
     </modules>
   </component>
 </project>
