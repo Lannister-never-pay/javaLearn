@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaSE" />
+        <module name="JVM" />
         <module name="java1101" />
         <module name="java1123" />
         <module name="java1115" />
@@ -14,6 +15,7 @@
         <module name="java1015" />
         <module name="java1108" />
         <module name="java1019" />
+        <module name="java1129" />
         <module name="java_maven_web" />
         <module name="java1020" />
       </profile>
@@ -26,11 +28,13 @@
       <module name="java1108" target="1.8" />
       <module name="java1115" target="1.8" />
       <module name="java1123" target="1.8" />
+      <module name="java1129" target="8" />
       <module name="java_maven" target="1.8" />
       <module name="java_maven_2" target="1.7" />
       <module name="java_maven_web" target="8" />
       <module name="javaEE" target="1.8" />
       <module name="JavaSE" target="1.8" />
+      <module name="JVM" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
