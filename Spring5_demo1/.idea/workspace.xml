@@ -117,12 +117,12 @@
       <module name="Spring5_demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emnets.spring5.testdemo.*" />
+          <option name="PATTERN" value="com.emnets.ioc.testdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.emnets.spring5.testdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.emnets.spring5.testdemo.TestSpring5" />
+      <option name="PACKAGE_NAME" value="com.emnets.ioc.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.emnets.ioc.testdemo.TestSpring5" />
       <option name="METHOD_NAME" value="testBean6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -133,12 +133,12 @@
       <module name="Spring5_demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emnets.spring5.testdemo.*" />
+          <option name="PATTERN" value="com.emnets.ioc.testdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.emnets.spring5.testdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.emnets.spring5.testdemo.TestSpring5" />
+      <option name="PACKAGE_NAME" value="com.emnets.ioc.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.emnets.ioc.testdemo.TestSpring5" />
       <option name="METHOD_NAME" value="testBean7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -149,12 +149,12 @@
       <module name="Spring5_demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emnets.spring5.testdemo.*" />
+          <option name="PATTERN" value="com.emnets.ioc.testdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.emnets.spring5.testdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.emnets.spring5.testdemo.TestSpring5" />
+      <option name="PACKAGE_NAME" value="com.emnets.ioc.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.emnets.ioc.testdemo.TestSpring5" />
       <option name="METHOD_NAME" value="testBean8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -165,12 +165,12 @@
       <module name="Spring5_demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emnets.spring5.testdemo.*" />
+          <option name="PATTERN" value="com.emnets.ioc.testdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.emnets.spring5.testdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.emnets.spring5.testdemo.TestSpring5" />
+      <option name="PACKAGE_NAME" value="com.emnets.ioc.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.emnets.ioc.testdemo.TestSpring5" />
       <option name="METHOD_NAME" value="testService" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -181,12 +181,12 @@
       <module name="Spring5_demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emnets.spring5.testdemo.*" />
+          <option name="PATTERN" value="com.emnets.ioc.testdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.emnets.spring5.testdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.emnets.spring5.testdemo.TestSpring5" />
+      <option name="PACKAGE_NAME" value="com.emnets.ioc.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.emnets.ioc.testdemo.TestSpring5" />
       <option name="METHOD_NAME" value="testService2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
