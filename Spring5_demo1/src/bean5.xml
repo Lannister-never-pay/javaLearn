@@ -16,7 +16,7 @@
     </util:list>
 
     <!--  2.提取list集合类型属性注入使用-->
-    <bean id="book" class="com.emnets.spring5.bean.Book">
+    <bean id="book" class="com.emnets.ioc.bean.Book">
         <property name="list" ref="bookList"></property>
     </bean>
 

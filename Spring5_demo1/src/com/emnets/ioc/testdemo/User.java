@@ -1,4 +1,4 @@
-package com.emnets.spring5.testdemo;
+package com.emnets.ioc.testdemo;
 
 /**
  * @author lannisite

@@ -1,12 +1,12 @@
-package com.emnets.spring5.testdemo;
+package com.emnets.ioc.testdemo;
 
-import com.emnets.spring5.bean.Book;
-import com.emnets.spring5.bean.Emp;
-import com.emnets.spring5.bean.Orders;
-import com.emnets.spring5.collectiontype.Course;
-import com.emnets.spring5.collectiontype.Stu;
-import com.emnets.spring5.config.SpringConfig;
-import com.emnets.spring5.service.UserService;
+import com.emnets.ioc.bean.Book;
+import com.emnets.ioc.bean.Emp;
+import com.emnets.ioc.bean.Orders;
+import com.emnets.ioc.collectiontype.Course;
+import com.emnets.ioc.collectiontype.Stu;
+import com.emnets.ioc.config.SpringConfig;
+import com.emnets.ioc.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -117,7 +117,7 @@ public class TestSpring5 {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean8.xml");
 
         //  2.获取配置文件
-        com.emnets.spring5.autowire.Emp emp = context.getBean("emp", com.emnets.spring5.autowire.Emp.class);
+        com.emnets.ioc.autowire.Emp emp = context.getBean("emp", com.emnets.ioc.autowire.Emp.class);
         
         System.out.println(emp);
     }

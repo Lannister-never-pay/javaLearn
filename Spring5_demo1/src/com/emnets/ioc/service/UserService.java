@@ -1,6 +1,6 @@
-package com.emnets.spring5.service;
+package com.emnets.ioc.service;
 
-import com.emnets.spring5.dao.UserDao;
+import com.emnets.ioc.dao.UserDao;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

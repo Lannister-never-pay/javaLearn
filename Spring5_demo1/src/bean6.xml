@@ -7,7 +7,7 @@
                            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
 
-    <bean id="MyBean" class="com.emnets.spring5.factorybean.MyBean">
+    <bean id="MyBean" class="com.emnets.ioc.factorybean.MyBean">
     </bean>
 
 </beans>

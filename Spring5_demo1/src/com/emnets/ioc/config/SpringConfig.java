@@ -1,4 +1,4 @@
-package com.emnets.spring5.config;
+package com.emnets.ioc.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
  */
 
 @Configuration      //  作为配置类，替代配置文件
-@ComponentScan(basePackages = {"com.emnets.spring5"})
+@ComponentScan(basePackages = {"com.emnets.ioc"})
 public class SpringConfig {
 
 }

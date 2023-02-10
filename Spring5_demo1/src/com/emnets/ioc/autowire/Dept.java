@@ -1,4 +1,4 @@
-package com.emnets.spring5.autowire;
+package com.emnets.ioc.autowire;
 
 /**
  * @author lannisite

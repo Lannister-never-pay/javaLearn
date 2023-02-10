@@ -1,6 +1,6 @@
-package com.emnets.spring5.factorybean;
+package com.emnets.ioc.factorybean;
 
-import com.emnets.spring5.collectiontype.Course;
+import com.emnets.ioc.collectiontype.Course;
 import org.springframework.beans.factory.FactoryBean;
 
 /**

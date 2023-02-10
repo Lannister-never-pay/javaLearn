@@ -1,4 +1,4 @@
-package com.emnets.spring5.collectiontype;
+package com.emnets.ioc.collectiontype;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.emnets.spring5.bean;
+package com.emnets.ioc.bean;
 
 import java.util.List;
 

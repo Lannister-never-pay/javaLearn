@@ -1,4 +1,4 @@
-package com.emnets.spring5.dao;
+package com.emnets.ioc.dao;
 
 import org.springframework.stereotype.Repository;
 

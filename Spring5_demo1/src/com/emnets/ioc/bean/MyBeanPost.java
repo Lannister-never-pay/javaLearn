@@ -1,4 +1,4 @@
-package com.emnets.spring5.bean;
+package com.emnets.ioc.bean;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
