@@ -4,12 +4,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--    内部bean操作-->
-    <bean id="emp" class="com.emnets.spring5.bean.Emp">
+    <bean id="emp" class="com.emnets.ioc.bean.Emp">
         <property name="ename" value="lucy"></property>
         <property name="gender" value="girl"></property>
         <!--        设置对象类型属性，可以按照外部bean方式，建一个对象然后引入-->
         <property name="dept">
-            <bean id="dept" class="com.emnets.spring5.bean.Dept">
+            <bean id="dept" class="com.emnets.ioc.bean.Dept">
                 <property name="dname" value="安保部"></property>
             </bean>
         </property>

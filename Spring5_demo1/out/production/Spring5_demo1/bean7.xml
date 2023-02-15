@@ -6,9 +6,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <bean id="orders" class="com.emnets.spring5.bean.Orders" init-method="initMethod" destroy-method="destroyMethod">
+    <bean id="orders" class="com.emnets.ioc.bean.Orders" init-method="initMethod" destroy-method="destroyMethod">
         <property name="oname" value="IPhone"></property>
     </bean>
 
-    <bean id="myBeanPost" class="com.emnets.spring5.bean.MyBeanPost"></bean>
+    <bean id="myBeanPost" class="com.emnets.ioc.bean.MyBeanPost"></bean>
 </beans>

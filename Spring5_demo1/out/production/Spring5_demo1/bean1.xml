@@ -4,7 +4,7 @@
        xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--配置user类的对象创建 -->
-    <bean id="user" class="com.emnets.spring5.testdemo.User">
+    <bean id="user" class="com.emnets.ioc.testdemo.User">
         <!--    set方法注入属性:使用property标签注入属性-->
         <property name="username" value="dyg"/>
         <!--        例如包含<>符号-->
@@ -15,7 +15,7 @@
     </bean>
 
 
-    <bean id="stu" class="com.emnets.spring5.collectiontype.Stu">
+    <bean id="stu" class="com.emnets.ioc.collectiontype.Stu">
         <!--    数组类型注入    -->
         <property name="courses">
             <array>

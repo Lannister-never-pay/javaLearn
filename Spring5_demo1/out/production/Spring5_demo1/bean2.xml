@@ -4,7 +4,7 @@
        xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="stu" class="com.emnets.spring5.collectiontype.Stu">
+    <bean id="stu" class="com.emnets.ioc.collectiontype.Stu">
         <!--    数组类型注入    -->
         <property name="courses">
             <array>
@@ -46,10 +46,10 @@
     </bean>
 
     <!--  创建多个course对象  -->
-    <bean id="course1" class="com.emnets.spring5.collectiontype.Course">
+    <bean id="course1" class="com.emnets.ioc.collectiontype.Course">
         <property name="cname" value="Spring5"></property>
     </bean>
-    <bean id="course2" class="com.emnets.spring5.collectiontype.Course">
+    <bean id="course2" class="com.emnets.ioc.collectiontype.Course">
         <property name="cname" value="Mybatis"></property>
     </bean>
 
