@@ -9,11 +9,26 @@
                            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
        <!--   开启注解扫描  -->
-       <context:component-scan base-package="com.emnets.aop.ano"></context:component-scan>
+       <context:component-scan base-package="com.emnets.jdbctemplate"></context:component-scan>
 
        <!-- 开启 Aspect 生成代理对象-->
        <!-- 这句代码作用：它扫描类，发现类上面有AspectJ注解，就把这个对象生成一个代理对象 -->
        <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+       <!-- 数据库连接池 -->
+       <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+             destroy-method="close">
+              <property name="url" value="jdbc:mysql://localhost:3306/user_db?characterEncoding=utf8" />
+              <property name="username" value="root" />
+              <property name="password" value="q1i9l9i9n" />
+              <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+       </bean>
+
+       <!-- JdbcTemplate对象 -->
+       <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+              <!-- 注入DataSource  -->
+              <property name="dataSource" ref="dataSource"></property>
+       </bean>
 
 
 </beans>
