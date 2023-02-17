@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72133945-544e-4e70-ab42-8cc34c74323a" name="Default Changelist" comment="IOC底层原理">
-      <change afterPath="$PROJECT_DIR$/lib/druid-1.1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/emnets/jdbctemplate/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/emnets/jdbctemplate/dao/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/emnets/jdbctemplate/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/emnets/jdbctemplate/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/emnets/jdbctemplate/test/TestBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/bean03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/aop/ano/PersonProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/jdbctemplate/dao/BookDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/jdbctemplate/dao/BookDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/jdbctemplate/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/jdbctemplate/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/jdbctemplate/test/TestBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/transaction/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/transaction/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/transaction/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/transaction/test/TestAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/emnets/transaction/config/TxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/emnets/transaction/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/emnets/transaction/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/emnets/transaction/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/emnets/transaction/test/TestAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transaction.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring5_demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring5_demo1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring5_demo1/bean02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/bean02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/aop/ano/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/aop/ano/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/aop/ano/UserProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/aop/ano/UserProxy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean02.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -62,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,33 +81,66 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBook.testBatchDelete">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestAccount.testAccount2">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emnets.transaction.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.emnets.transaction.test" />
+      <option name="MAIN_CLASS_NAME" value="com.emnets.transaction.test.TestAccount" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBook.testBatchAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAccount.TestAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring5_demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emnets.jdbctemplate.test.*" />
+          <option name="PATTERN" value="com.emnets.transaction.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.emnets.jdbctemplate.test" />
-      <option name="MAIN_CLASS_NAME" value="com.emnets.jdbctemplate.test.TestBook" />
-      <option name="METHOD_NAME" value="testBatchAdd" />
+      <option name="PACKAGE_NAME" value="com.emnets.transaction.test" />
+      <option name="MAIN_CLASS_NAME" value="com.emnets.transaction.test.TestAccount" />
+      <option name="METHOD_NAME" value="TestAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccount.testAccount2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emnets.transaction.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.emnets.transaction.test" />
+      <option name="MAIN_CLASS_NAME" value="com.emnets.transaction.test.TestAccount" />
+      <option name="METHOD_NAME" value="testAccount2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,52 +178,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBook.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring5_demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.emnets.jdbctemplate.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.emnets.jdbctemplate.test" />
-      <option name="MAIN_CLASS_NAME" value="com.emnets.jdbctemplate.test.TestBook" />
-      <option name="METHOD_NAME" value="testSelectAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBook.testSelectBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring5_demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.emnets.jdbctemplate.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.emnets.jdbctemplate.test" />
-      <option name="MAIN_CLASS_NAME" value="com.emnets.jdbctemplate.test.TestBook" />
-      <option name="METHOD_NAME" value="testSelectBook" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.TestBook.testSelectBook" />
-      <item itemvalue="JUnit.TestBook.testSelectAll" />
-      <item itemvalue="JUnit.TestBook.testBatchAdd" />
       <item itemvalue="JUnit.TestBook.testBatchUpdate" />
       <item itemvalue="JUnit.TestBook.testBatchDelete" />
+      <item itemvalue="JUnit.TestAccount.TestAccount" />
+      <item itemvalue="JUnit.TestAccount" />
+      <item itemvalue="JUnit.TestAccount.testAccount2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAccount.testAccount2" />
+        <item itemvalue="JUnit.TestAccount.TestAccount" />
+        <item itemvalue="JUnit.TestAccount" />
         <item itemvalue="JUnit.TestBook.testBatchDelete" />
         <item itemvalue="JUnit.TestBook.testBatchUpdate" />
-        <item itemvalue="JUnit.TestBook.testBatchAdd" />
-        <item itemvalue="JUnit.TestBook.testSelectAll" />
-        <item itemvalue="JUnit.TestBook.testSelectBook" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +213,8 @@
       <workItem from="1676364971316" duration="1229000" />
       <workItem from="1676463818327" duration="3837000" />
       <workItem from="1676517015233" duration="425000" />
-      <workItem from="1676519566414" duration="6205000" />
+      <workItem from="1676519566414" duration="8893000" />
+      <workItem from="1676598634911" duration="4512000" />
     </task>
     <task id="LOCAL-00001" summary="IOC">
       <created>1676018900895</created>
@@ -238,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676472174605</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JDBC">
+      <created>1676556589930</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676556589930</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +280,8 @@
     <MESSAGE value="IOC" />
     <MESSAGE value="IOC底层原理" />
     <MESSAGE value="AOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="AOP" />
+    <MESSAGE value="JDBC" />
+    <MESSAGE value="事务" />
+    <option name="LAST_COMMIT_MESSAGE" value="事务" />
   </component>
 </project>
