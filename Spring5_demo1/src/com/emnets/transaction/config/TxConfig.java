@@ -50,7 +50,7 @@ public class TxConfig {
 
 
     //  创建事务管理器的对象
-    @Bean
+//    @Bean
     public DataSourceTransactionManager getDataSourceTransactionManager(DataSource dataSource){
 
         DataSourceTransactionManager transactionManager = new DataSourceTransactionManager();

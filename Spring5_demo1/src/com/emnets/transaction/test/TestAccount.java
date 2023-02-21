@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.GenericApplicationContext;
 
 /**
  * @author lannisite
@@ -41,6 +42,21 @@ public class TestAccount {
          ApplicationContext context = new AnnotationConfigApplicationContext(TxConfig.class);
          UserService  userService = context.getBean("userService",UserService.class);
          userService.accountMoney();
+    }
+
+
+    @Test
+    public void testGenericApplicationContext(){
+         // 1.创建GenericApplicationContext对象
+        GenericApplicationContext context = new GenericApplicationContext();
+        //  2.调用context的方法对象注册
+        context.refresh();
+        context.registerBean("bean1",User.class,()->new User());
+        //  3.获取在spring注册的对象
+        User bean = context.getBean(User.class);
+        Object bean1 = context.getBean("bean1");
+        System.out.println(bean);
+        System.out.println(bean1);
     }
 
 }
