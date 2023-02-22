@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72133945-544e-4e70-ab42-8cc34c74323a" name="Default Changelist" comment="IOC底层原理">
-      <change afterPath="$PROJECT_DIR$/lib/log4j-api-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-core-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-slf4j-impl-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/emnets/newfeature/JTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/emnets/newfeature/JUnit5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/emnets/transaction/test/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/emnets/transaction/test/UserLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring5_demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring5_demo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring5_demo1/bean02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/bean02.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/transaction/config/TxConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/transaction/config/TxConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/transaction/test/TestAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring5_demo1/com/emnets/transaction/test/TestAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean02.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/emnets/transaction/config/TxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/emnets/transaction/config/TxConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/emnets/transaction/test/TestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/emnets/transaction/test/TestAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoreactor8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoreactor8/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoreactor8/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoreactor8/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoreactor8/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoreactor8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoreactor8/src/main/java/com/emnets/demoreactor8/Demoreactor8Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoreactor8/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoreactor8/src/test/java/com/emnets/demoreactor8/Demoreactor8ApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +189,7 @@
       <workItem from="1676517015233" duration="425000" />
       <workItem from="1676519566414" duration="8893000" />
       <workItem from="1676598634911" duration="8784000" />
+      <workItem from="1676992328065" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="IOC">
       <created>1676018900895</created>
