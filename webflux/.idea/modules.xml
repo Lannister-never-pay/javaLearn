@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/webflux.iml" filepath="$PROJECT_DIR$/webflux.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.mvn/wrapper/wrapper.iml" filepath="$PROJECT_DIR$/.mvn/wrapper/wrapper.iml" />
     </modules>
   </component>
 </project>
