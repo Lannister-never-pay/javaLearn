@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/java_maven_web" />
     <file type="web" url="file://$PROJECT_DIR$/javaEE" />
     <file type="web" url="file://$PROJECT_DIR$/JavaSE" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC-demo1" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -27,6 +28,7 @@
         <option value="$PROJECT_DIR$/java_maven_web/pom.xml" />
         <option value="$PROJECT_DIR$/java1129/pom.xml" />
         <option value="$PROJECT_DIR$/JVM/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC-demo1/pom.xml" />
       </list>
     </option>
   </component>

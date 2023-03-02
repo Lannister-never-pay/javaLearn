@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>首页</h1>
+
+<!-- 以斜线开头的路径叫做绝对路径，绝对路径又分浏览器解析的和服务器解析的，超链接中所写的绝对路径就是由浏览器解析的，这个时候表示的是从localhost:8080下访问
+        所以说直接写少一个上下文路径，加上他，就是SpringMVC，也就是在tomcat里面配置的上下文路径；同时上下文路径可以在配置里面修改，所以这里也不能写死
+        这里就需要使用thymeleaf语法了
+    -->
+<!-- 在href前面加上th：就会被thymeleaf解析，@{}里面识别到绝对路径时就会 -->
+<a th:href="@{/target}">访问目标页面</a>
+</body>
+</html>

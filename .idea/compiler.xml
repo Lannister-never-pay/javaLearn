@@ -13,6 +13,7 @@
         <module name="java1115" />
         <module name="java_maven" />
         <module name="java1015" />
+        <module name="SpringMVC-demo1" />
         <module name="java1108" />
         <module name="java1019" />
         <module name="java1129" />
@@ -35,6 +36,8 @@
       <module name="javaEE" target="1.8" />
       <module name="JavaSE" target="1.8" />
       <module name="JVM" target="8" />
+      <module name="SpringMVC-0228" target="8" />
+      <module name="SpringMVC-demo1" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
