@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<hrequestMappingtml lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+首页
+<a th:href="@{/hello/testMapping}">测试requestMapping注解位置</a>
+
+<form th:action="@{/hello/testMapping}" method="put">
+    <input type="submit" value="success">
+</form>
+
+</body>
+</hrequestMappingtml>
+
+

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JVM/JVM.iml" filepath="$PROJECT_DIR$/JVM/JVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLearn.iml" filepath="$PROJECT_DIR$/JavaLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC-demo1/SpringMVC-demo1.iml" filepath="$PROJECT_DIR$/SpringMVC-demo1/SpringMVC-demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringMVC-demo2/SpringMVC-demo2.iml" filepath="$PROJECT_DIR$/../SpringMVC-demo2/SpringMVC-demo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/java1015/java1015.iml" filepath="$PROJECT_DIR$/java1015/java1015.iml" />
       <module fileurl="file://$PROJECT_DIR$/java1019/java1019.iml" filepath="$PROJECT_DIR$/java1019/java1019.iml" />
       <module fileurl="file://$PROJECT_DIR$/java1020/java1020.iml" filepath="$PROJECT_DIR$/java1020/java1020.iml" />
