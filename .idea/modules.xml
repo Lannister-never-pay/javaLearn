@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JVM/JVM.iml" filepath="$PROJECT_DIR$/JVM/JVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLearn.iml" filepath="$PROJECT_DIR$/JavaLearn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringMVC-demo1/SpringMVC-demo1.iml" filepath="$PROJECT_DIR$/SpringMVC-demo1/SpringMVC-demo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SpringMVC-demo2/SpringMVC-demo2.iml" filepath="$PROJECT_DIR$/../SpringMVC-demo2/SpringMVC-demo2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java1015/java1015.iml" filepath="$PROJECT_DIR$/java1015/java1015.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java1019/java1019.iml" filepath="$PROJECT_DIR$/java1019/java1019.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java1020/java1020.iml" filepath="$PROJECT_DIR$/java1020/java1020.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java1101/java1101.iml" filepath="$PROJECT_DIR$/java1101/java1101.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java1108/java1108.iml" filepath="$PROJECT_DIR$/java1108/java1108.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java1115/java1115.iml" filepath="$PROJECT_DIR$/java1115/java1115.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java1123/java1123.iml" filepath="$PROJECT_DIR$/java1123/java1123.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java1129/java1129.iml" filepath="$PROJECT_DIR$/java1129/java1129.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaEE/javaEE.iml" filepath="$PROJECT_DIR$/javaEE/javaEE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java_maven/java_maven.iml" filepath="$PROJECT_DIR$/java_maven/java_maven.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java_maven_web/java_maven_web.iml" filepath="$PROJECT_DIR$/java_maven_web/java_maven_web.iml" />
     </modules>
   </component>
 </project>
