@@ -12,13 +12,15 @@
         <module name="java1123" />
         <module name="java1115" />
         <module name="java_maven" />
+        <module name="SpringMVC-demo2" />
+        <module name="SpringMVC-rest" />
         <module name="java1015" />
         <module name="SpringMVC-demo1" />
         <module name="java1108" />
         <module name="java1019" />
         <module name="java1129" />
         <module name="java_maven_web" />
-        <module name="SpringMVC-demo2 (2)" />
+        <module name="JavaBasics" />
         <module name="java1020" />
       </profile>
     </annotationProcessing>
@@ -27,9 +29,9 @@
       <module name="javaEE" target="1.8" />
       <module name="JavaSE" target="1.8" />
       <module name="SpringMVC-0228" target="8" />
-      <module name="SpringMVC-demo2" target="1.8" />
+      <module name="SpringMVC-demo2 (1)" target="1.8" />
+      <module name="SpringMVC-demo2 (2)" target="1.8" />
       <module name="SpringMVC-demo3" target="1.8" />
-      <module name="SpringMVC-rest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
