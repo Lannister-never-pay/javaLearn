@@ -22,6 +22,7 @@
         <module name="java_maven_web" />
         <module name="JavaBasics" />
         <module name="java1020" />
+        <module name="Redisdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
