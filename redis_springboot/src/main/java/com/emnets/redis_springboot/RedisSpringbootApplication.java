@@ -10,4 +10,5 @@ public class RedisSpringbootApplication {
 		SpringApplication.run(RedisSpringbootApplication.class, args);
 	}
 
+
 }
